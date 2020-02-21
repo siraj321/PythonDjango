@@ -2,92 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="446afdc2-4bec-41f8-a836-2f0f1047d83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codedaddies_list.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d0aca12-90c4-4557-a76a-88cbfa16da20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84223299-8509-4ae7-a211-d439f9e20161.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a16c339-10bd-42e6-8d5b-a2c94395d870.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedaddies_list/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedaddies_list/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedaddies_list/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedaddies_list/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedaddies_list/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/djangoproject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/djangoproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/djangoproject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/djangoproject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/djangoproject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/djangoproject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/genre/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/static/images/background.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/static/polls/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/templates/polls/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/templates/polls/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/templates/polls/results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoproject/polls/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/Application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/Employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/Point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/ReadFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/RegularExpressions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/accessmodifiers/JustCounter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/accessmodifiers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/cgi/Cgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/cgi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/foo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/templates/Parent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/templates/Person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/templates/Vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/testfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/com/testfile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/pythonWithDjango.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/testfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonWithDjango/testfile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/PythonProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python configuration" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d0aca12-90c4-4557-a76a-88cbfa16da20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84223299-8509-4ae7-a211-d439f9e20161.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84223299-8509-4ae7-a211-d439f9e20161.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a16c339-10bd-42e6-8d5b-a2c94395d870.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +74,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PythonProjects\codedaddies_list" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="codedaddies_list" type="Python.DjangoServer" factoryName="Django server">
@@ -212,6 +144,7 @@
       <updated>1582204924643</updated>
       <workItem from="1582204934302" duration="1200000" />
       <workItem from="1582268853616" duration="7709000" />
+      <workItem from="1582286088795" duration="673000" />
     </task>
     <servers />
   </component>
@@ -223,10 +156,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="407" y="296" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582281622402" />
-    <state x="298" y="210" key="FileChooserDialogImpl" timestamp="1582285518513">
+    <state x="634" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582286615292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="298" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582285518513" />
+    <state x="634" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582286615292" />
+    <state x="185" y="50" key="CommitChangelistDialog2" timestamp="1582286265930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="185" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582286265930" />
+    <state x="298" y="210" key="FileChooserDialogImpl" timestamp="1582286096038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="298" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582286096038" />
     <state width="1035" height="144" key="GridCell.Tab.0.bottom" timestamp="1582285814084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,9 +188,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="35" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582280301803" />
-    <state x="662" y="465" key="com.intellij.ide.util.TipDialog" timestamp="1582268878660">
+    <state x="662" y="465" key="com.intellij.ide.util.TipDialog" timestamp="1582286089267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="465" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582268878660" />
+    <state x="662" y="465" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582286089267" />
   </component>
 </project>

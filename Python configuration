@@ -1,0 +1,35 @@
+python configuration
+https://www.youtube.com/watch?v=BLrGJvFp75M
+
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade pip
+
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org virtualenvwrapper-win pip
+
+mkvirtualenv py2
+
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django pip
+
+pip install --trusted-host pypi.org django-heroku
+
+django-admin startproject djangoproject
+
+python manage.py runserver
+
+every tab is work as an app
+python manage.py startapp genre
+
+
+Python web project create
+=============================
+
+Step1: django-admin startproject codedaddies_list ---- create django project from django admin.
+Step2: django-admin startapp my_app               ---- create app in django project
+Step3: python manage.py migrate                   ---- arrange new started project
+Step4: python manage.py createsuperuser           ---- create super
+Step5: python manage.py makemigrations, python manage.py migrate            ---- after created every model
+
+Note:  
+ 
+  -  Register every model which is created by models.py in admin.py.
+  -  Mention every app newly created in settings.py under INSTALLED_APPS
+
