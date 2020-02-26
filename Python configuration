@@ -11,6 +11,12 @@ pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django
 
 pip install --trusted-host pypi.org django-heroku
 
+pip install --trusted-host pypi.org bs4
+
+pip freeze > requirements.txt
+
+
+
 django-admin startproject djangoproject
 
 python manage.py runserver
