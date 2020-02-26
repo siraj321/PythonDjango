@@ -13,6 +13,8 @@ pip install --trusted-host pypi.org django-heroku
 
 pip install --trusted-host pypi.org bs4
 
+pip install --trusted-host pypi.org requests
+
 pip freeze > requirements.txt
 
 
