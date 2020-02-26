@@ -21,7 +21,7 @@ def new_search(request):
     #prepared_request = s.prepare_request(request)
     #settings = s.merge_environment_settings(prepared_request.url, None, None, None, None)
     #response = s.send(prepared_request, **settings)
-    #response = s.send(prepared_request)
+    #response = s.send(prepared_request)...
 
     data = response.text
     print(data)
