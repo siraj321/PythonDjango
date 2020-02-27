@@ -28,14 +28,39 @@ def new_search(request):
     #settings = s.merge_environment_settings(prepared_request.url, None, None, None, None)
     #response = s.send(prepared_request, **settings)
     #response = s.send(prepared_request)...
-
     data = response.text
     soup = BeautifulSoup(data,features='html.parser')
-    post_titles = soup.find_all('a',{'class':'result-title'})
-    print('post_titles:',post_titles)
+
+    post_listings = soup.find_all('li',{'class':'result-row'})
+    post_title = post_listings[0].find(class_='result-title').text
+    post_url = post_listings[0].find('a').get('href')
+    post_price = post_listings[0].find(class_='result-price')
+
+    final_postings = []
+
+    for post in post_listings:
+        post_title = post.find(class_='result-title').text
+        post_url = post.find('a').get('href')
+        if post.find(class_='result-price'):
+            post_price = post.find(class_='result-price')
+        else: post_price = 'N/A'
+
+        final_postings.append((post_title, post_url, post_price))
+
+
+    #post_text = new_soup.find(id='postingbody').text
+    #print(post_title)
+    #print(post_url)
+    #print(post_price)
+
+    #post_titles = soup.find_all('a',{'class':'result-title'})
+    #print('post_titles:',post_title[0].text)
+    #print('post_titles:', post_title[0].get('href'))
     #print(data)
     stuff_for_frontend = {
         'search':search,
+        'final_postings': final_postings,
+
     }
     return render(request, 'my_app/new_search.html',stuff_for_frontend)
 
