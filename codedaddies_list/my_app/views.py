@@ -45,7 +45,15 @@ def new_search(request):
             post_price = post.find(class_='result-price')
         else: post_price = 'N/A'
 
-        final_postings.append((post_title, post_url, post_price))
+        if post.find(class_='result-image').get('data-ids'):
+            post_image_url = post.find(class_='result-image').get('data-ids').split(',')[0].split(':')[1]
+            post_image_url = BASE_IMAGE_URL.format(post_image_url)
+            print(post_image_url)
+        else:
+            post_image_url = 'https://craigslist.org/images/peace.jpg'
+
+
+        final_postings.append((post_title, post_url, post_price,post_image_url))
 
 
     #post_text = new_soup.find(id='postingbody').text
