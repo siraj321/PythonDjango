@@ -11,11 +11,23 @@ pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django
 
 pip install --trusted-host pypi.org django-heroku
 
+pip install --trusted-host pypi.org gunicorn
+pip install --trusted-host pypi.org psycopg2
+
 pip install --trusted-host pypi.org bs4
 
 pip install --trusted-host pypi.org requests
 
+SSLCertificate
+pip install --trusted-host pypi.org --admin --upgrade pythonanywhere
+
 pip freeze > requirements.txt
+============================================================================
+
+SET NODE_EXTRA_CA_CERTS=C:\Users\admin\cert\proxy.cer
+heroku login
+
+==============================================================================
 
 
 
