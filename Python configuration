@@ -26,6 +26,7 @@ pip freeze > requirements.txt
 
 SET NODE_EXTRA_CA_CERTS=C:\Users\admin\cert\proxy.cer
 heroku login
+heroku create
 
 ==============================================================================
 
