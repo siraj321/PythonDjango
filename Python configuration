@@ -1,6 +1,9 @@
 python configuration
 https://www.youtube.com/watch?v=BLrGJvFp75M
 
+pip install --trusted-host pypi.org virtualenvwrapper-win
+
+
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade pip
 
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org virtualenvwrapper-win pip
@@ -21,21 +24,34 @@ pip install --trusted-host pypi.org requests
 SSLCertificate
 pip install --trusted-host pypi.org --admin --upgrade pythonanywhere
 
+pip install --trusted-host pypi.org decouple
+
+pip install --trusted-host pypi.org PyGithub
+
 pip freeze > requirements.txt
+pip install --trusted-host -r requirements.txt
+
+
+python -m pip install --trusted-host pip setuptools
+python -m pip install --trusted-host pypi.org matplotlib
+
+pip install --trusted-host pypi.org pip-upgrade-outdated
 ============================================================================
+pip install --trusted-host pypi.org -r C:\Users\admin\PythonProjects\djangoRestfulApis\requirements.txt
 
 SET NODE_EXTRA_CA_CERTS=C:\Users\admin\cert\proxy.cer
+SET NODE_EXTRA_CA_CERTS=C:\Users\admin\cert\pypicert.cer
+SET NODE_EXTRA_CA_CERTS=C:\Users\admin\cert\apilayer.cer
 heroku login
 heroku create
 
 ==============================================================================
 
-
+mkvirtualenv testpython
+workon testpython --- useing environment
 
 django-admin startproject djangoproject
-
 python manage.py runserver
-
 every tab is work as an app
 python manage.py startapp genre
 
