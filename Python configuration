@@ -36,6 +36,10 @@ python -m pip install --trusted-host pip setuptools
 python -m pip install --trusted-host pypi.org matplotlib
 
 pip install --trusted-host pypi.org pip-upgrade-outdated
+
+pip install --trusted-host pypi.org scikit-learn
+
+pip install --trusted-host pypi.org Pillow
 ============================================================================
 pip install --trusted-host pypi.org -r C:\Users\admin\PythonProjects\djangoRestfulApis\requirements.txt
 
@@ -55,6 +59,8 @@ python manage.py runserver
 every tab is work as an app
 python manage.py startapp genre
 
+python manage.py collectstatic
+
 
 Python web project create
 =============================
@@ -63,7 +69,11 @@ Step1: django-admin startproject codedaddies_list ---- create django project fro
 Step2: django-admin startapp my_app               ---- create app in django project
 Step3: python manage.py migrate                   ---- arrange new started project
 Step4: python manage.py createsuperuser           ---- create super
-Step5: python manage.py makemigrations, python manage.py migrate            ---- after created every model
+Step5: python manage.py makemigrations,            ---- after created every model/ edited model
+
+        python manage.py sqlmigrate travello 0001    -- create tables in postgress
+
+        python manage.py migrate 
 
 Note:  
  
